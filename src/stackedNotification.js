@@ -40,13 +40,10 @@ class StackedNotification extends Component {
     }), dismissAfter);
   }
 
-  /*
-  * @function handleClick
-  * @description Bind deactivate Notification function to Notification click handler
-  */
+  // Bind deactivate Notification function to Notification click handler
   handleClick() {
     if (this.props.onClick && typeof this.props.onClick === 'function') {
-      return this.props.onClick(this.setState.bind(this, { isActive: false }));
+      this.props.onClick(this.setState.bind(this, { isActive: false }));
     }
   }
 

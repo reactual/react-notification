@@ -1,0 +1,289 @@
+exports[`NotificationStack should render component 1`] = `
+<NotificationStack
+  activeBarStyleFactory={[Function]}
+  barStyleFactory={[Function]}
+  dismissAfter={1000}
+  dismissInOrder={true}
+  notifications={
+    Array [
+      Object {
+        "action": "Dismiss",
+        "actionStyle": Object {
+          "color": "#EEEEEE",
+        },
+        "activeBarStyle": Object {
+          "color": "#FFFFFF",
+        },
+        "barStyle": Object {
+          "color": "#000000",
+        },
+        "dismissAfter": 100,
+        "key": 1,
+        "message": "Foo",
+        "onClick": [Function],
+        "title": "Bar",
+      },
+      Object {
+        "action": "Dismiss",
+        "actionStyle": Object {
+          "color": "#EEEEEE",
+        },
+        "activeBarStyle": Object {
+          "color": "#FFFFFF",
+        },
+        "barStyle": Object {
+          "color": "#000000",
+        },
+        "dismissAfter": 100,
+        "key": 2,
+        "message": "Foo",
+        "onClick": [Function],
+        "title": "Bar",
+      },
+    ]
+  }
+  onClick={[Function]}
+  onDismiss={[Function]}>
+  <div
+    className="notification-list">
+    <StackedNotification
+      action="Dismiss"
+      actionStyle={
+        Object {
+          "color": "#EEEEEE",
+        }
+      }
+      activeBarStyle={
+        Object {
+          "bottom": "2rem",
+          "color": "#FFFFFF",
+        }
+      }
+      barStyle={
+        Object {
+          "bottom": "2rem",
+          "color": "#000000",
+        }
+      }
+      dismissAfter={100}
+      isLast={false}
+      message="Foo"
+      onClick={[Function]}
+      onDismiss={[Function]}
+      title="Bar">
+      <Notification
+        action="Dismiss"
+        actionStyle={
+          Object {
+            "color": "#EEEEEE",
+          }
+        }
+        activeBarStyle={
+          Object {
+            "bottom": "2rem",
+            "color": "#FFFFFF",
+          }
+        }
+        activeClassName="notification-bar-active"
+        barStyle={
+          Object {
+            "bottom": "2rem",
+            "color": "#000000",
+          }
+        }
+        dismissAfter={100}
+        isActive={false}
+        isLast={false}
+        message="Foo"
+        onClick={[Function]}
+        onDismiss={[Function]}
+        title="Bar">
+        <div
+          className="notification-bar"
+          style={
+            Object {
+              "MozTransform": "translatez(0)",
+              "MozTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+              "OTransform": "translatez(0)",
+              "OTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+              "WebKitTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+              "WebkitTransform": "translatez(0)",
+              "background": "#212121",
+              "borderRadius": "5px",
+              "borderSizing": "border-box",
+              "bottom": "2rem",
+              "boxShadow": "0 0 1px 1px rgba(10, 10, 11, .125)",
+              "color": "#000000",
+              "cursor": "default",
+              "font": "1rem normal Roboto, sans-serif",
+              "left": "-100%",
+              "margin": 0,
+              "msTransform": "translatez(0)",
+              "msTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+              "padding": "1rem",
+              "position": "fixed",
+              "transform": "translatez(0)",
+              "transition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+              "width": "auto",
+            }
+          }>
+          <div
+            className="notification-bar-wrapper">
+            <span
+              className="notification-bar-title"
+              style={
+                Object {
+                  "fontWeight": "700",
+                  "marginRight": ".5rem",
+                }
+              }>
+              Bar
+            </span>
+            <span
+              className="notification-bar-message">
+              Foo
+            </span>
+            <span
+              className="notification-bar-action"
+              onClick={[Function]}
+              style={
+                Object {
+                  "borderRadius": "5px",
+                  "color": "#f44336",
+                  "cursor": "pointer",
+                  "font": ".75rem normal Roboto, sans-serif",
+                  "letterSpacing": ".125ex",
+                  "lineHeight": "1rem",
+                  "marginLeft": "1rem",
+                  "padding": "0.125rem",
+                  "textTransform": "uppercase",
+                }
+              }>
+              Dismiss
+            </span>
+          </div>
+        </div>
+      </Notification>
+    </StackedNotification>
+    <StackedNotification
+      action="Dismiss"
+      actionStyle={
+        Object {
+          "color": "#EEEEEE",
+        }
+      }
+      activeBarStyle={
+        Object {
+          "bottom": "6rem",
+          "color": "#FFFFFF",
+        }
+      }
+      barStyle={
+        Object {
+          "bottom": "6rem",
+          "color": "#000000",
+        }
+      }
+      dismissAfter={1100}
+      isLast={false}
+      message="Foo"
+      onClick={[Function]}
+      onDismiss={[Function]}
+      title="Bar">
+      <Notification
+        action="Dismiss"
+        actionStyle={
+          Object {
+            "color": "#EEEEEE",
+          }
+        }
+        activeBarStyle={
+          Object {
+            "bottom": "6rem",
+            "color": "#FFFFFF",
+          }
+        }
+        activeClassName="notification-bar-active"
+        barStyle={
+          Object {
+            "bottom": "6rem",
+            "color": "#000000",
+          }
+        }
+        dismissAfter={1100}
+        isActive={false}
+        isLast={false}
+        message="Foo"
+        onClick={[Function]}
+        onDismiss={[Function]}
+        title="Bar">
+        <div
+          className="notification-bar"
+          style={
+            Object {
+              "MozTransform": "translatez(0)",
+              "MozTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+              "OTransform": "translatez(0)",
+              "OTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+              "WebKitTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+              "WebkitTransform": "translatez(0)",
+              "background": "#212121",
+              "borderRadius": "5px",
+              "borderSizing": "border-box",
+              "bottom": "6rem",
+              "boxShadow": "0 0 1px 1px rgba(10, 10, 11, .125)",
+              "color": "#000000",
+              "cursor": "default",
+              "font": "1rem normal Roboto, sans-serif",
+              "left": "-100%",
+              "margin": 0,
+              "msTransform": "translatez(0)",
+              "msTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+              "padding": "1rem",
+              "position": "fixed",
+              "transform": "translatez(0)",
+              "transition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+              "width": "auto",
+            }
+          }>
+          <div
+            className="notification-bar-wrapper">
+            <span
+              className="notification-bar-title"
+              style={
+                Object {
+                  "fontWeight": "700",
+                  "marginRight": ".5rem",
+                }
+              }>
+              Bar
+            </span>
+            <span
+              className="notification-bar-message">
+              Foo
+            </span>
+            <span
+              className="notification-bar-action"
+              onClick={[Function]}
+              style={
+                Object {
+                  "borderRadius": "5px",
+                  "color": "#f44336",
+                  "cursor": "pointer",
+                  "font": ".75rem normal Roboto, sans-serif",
+                  "letterSpacing": ".125ex",
+                  "lineHeight": "1rem",
+                  "marginLeft": "1rem",
+                  "padding": "0.125rem",
+                  "textTransform": "uppercase",
+                }
+              }>
+              Dismiss
+            </span>
+          </div>
+        </div>
+      </Notification>
+    </StackedNotification>
+  </div>
+</NotificationStack>
+`;

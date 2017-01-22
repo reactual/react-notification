@@ -1,17 +1,17 @@
 export default {
-  key: 1111111,
-  message: 'Test',
+  key: 1,
+  message: 'Foo',
+  title: 'Bar',
   action: 'Dismiss',
   dismissAfter: 100,
-  title: 'Title',
-  onClick: function handleClick() {},
+  onClick: () => {},
   barStyle: {
-    background: 'rgb(2, 2, 2)'
+    color: '#000000'
   },
   actionStyle: {
-    color: 'rgb(2, 2, 2)'
+    color: '#EEEEEE'
   },
   activeBarStyle: {
-    left: '4rem'
+    color: '#FFFFFF'
   }
 };

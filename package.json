@@ -9,7 +9,7 @@
     "prebuild": "npm test",
     "build": "`npm bin`/babel src -d dist",
     "pretest": "npm run lint",
-    "test": "./bin/test.sh",
+    "test": "`npm bin`/jest",
     "lint": "`npm bin`/eslint src/**/*.js test/**/*.js",
     "start": "node examples/server.js"
   },
@@ -37,6 +37,14 @@
     "url": "https://github.com/pburtchaell/react-notification/issues"
   },
   "homepage": "https://github.com/pburtchaell/react-notification",
+  "jest": {
+    "setupFiles": [
+      "./test/setup.js"
+    ],
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/enzyme-to-json/serializer"
+    ]
+  },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0"
   },

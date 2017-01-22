@@ -1,33 +1,14 @@
+/* eslint-disable import/no-extraneous-dependencies */
+import React from 'react';
 import chai from 'chai';
 import chaiEnzyme from 'chai-enzyme';
+import { shallow, render, mount } from 'enzyme';
 
-const exposedProperties = ['window', 'navigator', 'document'];
-
-// Include stack on error
-chai.config.includeStack = true;
-
-/**
- * Add commonly used functions in tests to global
- * so they do not need to be imported each time.
- */
-global.React = require('react');
-global.expect = require('chai').expect;
-global.spy = require('sinon').spy;
-global.shallow = require('enzyme').shallow;
-global.mount = require('enzyme').mount;
-global.jsdom = require('jsdom').jsdom;
-
-global.document = jsdom('');
-global.window = document.defaultView;
-Object.keys(document.defaultView).forEach((property) => {
-  if (typeof global[property] === 'undefined') {
-    exposedProperties.push(property);
-    global[property] = document.defaultView[property];
-  }
-});
-
-global.navigator = {
-  userAgent: 'node.js'
-};
+// Add commonly used methods and objects as globals
+global.chai = chai;
+global.mount = mount;
+global.React = React;
+global.render = render;
+global.shallow = shallow;
 
 chai.use(chaiEnzyme());

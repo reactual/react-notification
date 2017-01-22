@@ -1,0 +1,273 @@
+exports[`Notification should render component with custom class names 1`] = `
+<Notification
+  activeClassName="foo-active"
+  className="foo"
+  dismissAfter={2000}
+  isActive={false}
+  message="Foo">
+  <div
+    className="notification-bar foo"
+    style={
+      Object {
+        "MozTransform": "translatez(0)",
+        "MozTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "OTransform": "translatez(0)",
+        "OTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "WebKitTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "WebkitTransform": "translatez(0)",
+        "background": "#212121",
+        "borderRadius": "5px",
+        "borderSizing": "border-box",
+        "bottom": "2rem",
+        "boxShadow": "0 0 1px 1px rgba(10, 10, 11, .125)",
+        "color": "#fafafa",
+        "cursor": "default",
+        "font": "1rem normal Roboto, sans-serif",
+        "left": "-100%",
+        "margin": 0,
+        "msTransform": "translatez(0)",
+        "msTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "padding": "1rem",
+        "position": "fixed",
+        "transform": "translatez(0)",
+        "transition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "width": "auto",
+      }
+    }>
+    <div
+      className="notification-bar-wrapper">
+      <span
+        className="notification-bar-message">
+        Foo
+      </span>
+    </div>
+  </div>
+</Notification>
+`;
+
+exports[`Notification should render component with custom class names 2`] = `
+<Notification
+  activeClassName="foo-active"
+  className="foo"
+  dismissAfter={2000}
+  isActive={true}
+  message="Foo">
+  <div
+    className="notification-bar foo-active foo"
+    style={
+      Object {
+        "MozTransform": "translatez(0)",
+        "MozTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "OTransform": "translatez(0)",
+        "OTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "WebKitTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "WebkitTransform": "translatez(0)",
+        "background": "#212121",
+        "borderRadius": "5px",
+        "borderSizing": "border-box",
+        "bottom": "2rem",
+        "boxShadow": "0 0 1px 1px rgba(10, 10, 11, .125)",
+        "color": "#fafafa",
+        "cursor": "default",
+        "font": "1rem normal Roboto, sans-serif",
+        "left": "1rem",
+        "margin": 0,
+        "msTransform": "translatez(0)",
+        "msTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "padding": "1rem",
+        "position": "fixed",
+        "transform": "translatez(0)",
+        "transition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "width": "auto",
+      }
+    }>
+    <div
+      className="notification-bar-wrapper">
+      <span
+        className="notification-bar-message">
+        Foo
+      </span>
+    </div>
+  </div>
+</Notification>
+`;
+
+exports[`Notification should render component with message type element 1`] = `
+<Notification
+  activeClassName="notification-bar-active"
+  dismissAfter={2000}
+  isActive={false}
+  message={
+    <div
+      className="notification-bar-custom-message">
+      Foo
+    </div>
+  }>
+  <div
+    className="notification-bar"
+    style={
+      Object {
+        "MozTransform": "translatez(0)",
+        "MozTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "OTransform": "translatez(0)",
+        "OTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "WebKitTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "WebkitTransform": "translatez(0)",
+        "background": "#212121",
+        "borderRadius": "5px",
+        "borderSizing": "border-box",
+        "bottom": "2rem",
+        "boxShadow": "0 0 1px 1px rgba(10, 10, 11, .125)",
+        "color": "#fafafa",
+        "cursor": "default",
+        "font": "1rem normal Roboto, sans-serif",
+        "left": "-100%",
+        "margin": 0,
+        "msTransform": "translatez(0)",
+        "msTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "padding": "1rem",
+        "position": "fixed",
+        "transform": "translatez(0)",
+        "transition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "width": "auto",
+      }
+    }>
+    <div
+      className="notification-bar-wrapper">
+      <span
+        className="notification-bar-message">
+        <div
+          className="notification-bar-custom-message">
+          Foo
+        </div>
+      </span>
+    </div>
+  </div>
+</Notification>
+`;
+
+exports[`Notification should render component with message type string 1`] = `
+<Notification
+  activeClassName="notification-bar-active"
+  dismissAfter={2000}
+  isActive={false}
+  message="Foo">
+  <div
+    className="notification-bar"
+    style={
+      Object {
+        "MozTransform": "translatez(0)",
+        "MozTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "OTransform": "translatez(0)",
+        "OTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "WebKitTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "WebkitTransform": "translatez(0)",
+        "background": "#212121",
+        "borderRadius": "5px",
+        "borderSizing": "border-box",
+        "bottom": "2rem",
+        "boxShadow": "0 0 1px 1px rgba(10, 10, 11, .125)",
+        "color": "#fafafa",
+        "cursor": "default",
+        "font": "1rem normal Roboto, sans-serif",
+        "left": "-100%",
+        "margin": 0,
+        "msTransform": "translatez(0)",
+        "msTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "padding": "1rem",
+        "position": "fixed",
+        "transform": "translatez(0)",
+        "transition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+        "width": "auto",
+      }
+    }>
+    <div
+      className="notification-bar-wrapper">
+      <span
+        className="notification-bar-message">
+        Foo
+      </span>
+    </div>
+  </div>
+</Notification>
+`;
+
+exports[`Notification should render custom bar style 1`] = `
+<div
+  className="notification-bar"
+  style={
+    Object {
+      "MozTransform": "translatez(0)",
+      "MozTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+      "OTransform": "translatez(0)",
+      "OTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+      "WebKitTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+      "WebkitTransform": "translatez(0)",
+      "background": "#212121",
+      "borderRadius": "5px",
+      "borderSizing": "border-box",
+      "bottom": "2rem",
+      "boxShadow": "0 0 1px 1px rgba(10, 10, 11, .125)",
+      "color": "#000000",
+      "cursor": "default",
+      "font": "1rem normal Roboto, sans-serif",
+      "left": "-100%",
+      "margin": 0,
+      "msTransform": "translatez(0)",
+      "msTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+      "padding": "1rem",
+      "position": "fixed",
+      "transform": "translatez(0)",
+      "transition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+      "width": "auto",
+    }
+  }>
+  <div
+    className="notification-bar-wrapper">
+    <span
+      className="notification-bar-message">
+      Foo
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Notification should render custom bar style 2`] = `
+<div
+  className="notification-bar notification-bar-active"
+  style={
+    Object {
+      "MozTransform": "translatez(0)",
+      "MozTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+      "OTransform": "translatez(0)",
+      "OTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+      "WebKitTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+      "WebkitTransform": "translatez(0)",
+      "background": "#212121",
+      "borderRadius": "5px",
+      "borderSizing": "border-box",
+      "bottom": "2rem",
+      "boxShadow": "0 0 1px 1px rgba(10, 10, 11, .125)",
+      "color": "#FFFFFF",
+      "cursor": "default",
+      "font": "1rem normal Roboto, sans-serif",
+      "left": "1rem",
+      "margin": 0,
+      "msTransform": "translatez(0)",
+      "msTransition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+      "padding": "1rem",
+      "position": "fixed",
+      "transform": "translatez(0)",
+      "transition": ".5s cubic-bezier(0.89, 0.01, 0.5, 1.1)",
+      "width": "auto",
+    }
+  }>
+  <div
+    className="notification-bar-wrapper">
+    <span
+      className="notification-bar-message">
+      Foo
+    </span>
+  </div>
+</div>
+`;
