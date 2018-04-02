@@ -1,5 +1,5 @@
 {
-  "name": "react-notification",
+  "name": "react-notifications",
   "version": "6.8.2",
   "description": "Snackbar style notification component for React",
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https+git://github.com/pburtchaell/react-notification"
+    "url": "https+git://github.com/reactual/react-notification"
   },
   "keywords": [
     "react",
@@ -31,12 +31,12 @@
     "notification stack",
     "snackbar"
   ],
-  "author": "Patrick Burtchaell <patrick@pburtchaell.com> (pburtchaell.com)",
+  "author": "Reactual <github@reactual.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pburtchaell/react-notification/issues"
+    "url": "https://github.com/reactual/react-notification/issues"
   },
-  "homepage": "https://github.com/pburtchaell/react-notification",
+  "homepage": "https://github.com/reactual/react-notification",
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
   },
